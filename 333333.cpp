@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int N, count = 0;
+	int num, count = 0;
 	string text1, text2;
 	
 	cout << "Enter the first text: ";
@@ -11,10 +11,10 @@ int main()
 	cout << "\nEnter the second text: ";
 	cin >> text2;
 	
-	cout << "\nEnter N: ";
-	cin >> N;
+	cout << "\nEnter num: ";
+	cin >> num;
 	
-	while(count < N){
+	while(count < num){
 		if(count%2 == 0){
 			cout << text1 << " ";
 		}
